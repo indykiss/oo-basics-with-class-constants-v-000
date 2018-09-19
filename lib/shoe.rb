@@ -10,7 +10,7 @@ class Shoe
     
     if (:brand).uniq.count == 1 {
       BRANDS << brand}
-     
+     end
   end
   
   def cobble
