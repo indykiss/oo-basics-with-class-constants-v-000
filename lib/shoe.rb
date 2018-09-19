@@ -9,9 +9,9 @@ class Shoe
     
     BRANDS.each {
       |x| 
-    (if |x| != brand
+    if |x| != brand
       BRANDS << brand
-    end)
+    end
     }
      
   end
