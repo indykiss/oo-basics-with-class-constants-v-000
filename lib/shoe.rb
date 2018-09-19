@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-    BRANDS.length 
+    BRANDS.each do 
     if BRANDS[] !== brand
       BRANDS << brand
      end
