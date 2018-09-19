@@ -8,6 +8,8 @@ class Shoe
     @brand = brand
     
     BRANDS.each {
+      |x| 
+    }
     if BRANDS[] !== brand
       BRANDS << brand
      end
