@@ -8,6 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    console.log(BRANDS)
   end
   
   def cobble
@@ -17,4 +18,3 @@ class Shoe
 
 end
 
-  console.log(BRANDS)
