@@ -9,7 +9,7 @@ class Shoe
     
     BRANDS.each {
       |x| 
-    if BRANDS[x] !== brand
+    if BRANDS[x] != brand
       BRANDS << brand}
      
   end
