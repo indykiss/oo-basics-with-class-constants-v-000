@@ -8,7 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-    if (:brand).uniq.count == 1 {
+    if brand.uniq.count == 1 {
       BRANDS << brand}
      end
   end
