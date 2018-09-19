@@ -9,6 +9,7 @@ class Shoe
     
   if BRANDS.exclude?(brand) do
     BRANDS << brand
+  end 
   end
   
   def cobble
