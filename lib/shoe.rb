@@ -8,8 +8,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-    if brand
-      BRANDS << brand
+    if pluck(:brand).uniq.count == 1 {
+      BRANDS << brand}
     end 
   end
   
