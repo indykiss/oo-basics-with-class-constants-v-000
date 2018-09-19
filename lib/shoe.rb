@@ -11,7 +11,7 @@ class Shoe
       |x| 
     if BRANDS[x] !== brand
       BRANDS << brand
-     end}
+     end
   end
   
   def cobble
